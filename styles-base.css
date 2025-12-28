@@ -1,26 +1,24 @@
 :root{
-  --light-grey: #F7F7F7;          /* Light background */
-    --teal-primary: #009A94;         /* Teal green - main accent */
-    --yellow-primary: #E9BB3F;       /* Yellow - secondary accent */
-    --dark-grey: #262626;            /* Dark grey/black - text */
-    --pure-black: #000000;           /* Pure black for better contrast */
-    --pure-white: #FFFFFF;           /* Pure white */
+    --black: #030304;         
+    --orange-primary: #cd3315;        
+    --creme: #D4B483;               
+    --pink: #C1666B;           
+    --white: #f4efeb;          
     
-    --primary-color: var(--teal-primary);
-    --secondary-color: var(--yellow-primary);
-    --accent-color: var(--yellow-primary);
-    --text-color: #000000;
-    --text-secondary: #000000;
-    --bg-color: #FFFFFF;
-    --bg-secondary: #F8F9FA;
-    --bg-alt-color: #F1F3F4;
-    --bg-fills: var(--teal-primary);
-    --border-color: #E0E0E0;
-    --shadow-color: rgba(0, 0, 0, 0.1);
+    /* Light Theme Colors (default) */
+    --primary-color: var(--orange-primary);
+    --secondary-color: var(--creme);
+    --accent-color: var(--pink);
+    --text-color: var(--white);
+    --text-primary-button: #FFFFFF; /*for the orange buttons*/
+    --text-secondary-button: var(var(--black)); /*for creme button*/
+    --bg-color: var(--black);
+    --button-color: var(--primary-color);
+    --button-secondary: var(var(--secondary-color));
+    --border-color: var(--black);
+    --shadow-color: var(--white);
     --shadow-color-hover: rgba(0, 0, 0, 0.2);
-    --subtitle-color: #000000;
-    --highlight-color: var(--yellow-primary);
-    
+    --highlight-color: var(--pink);
     /* Typography */
     /*--font-primary:
     --font-accent: */
