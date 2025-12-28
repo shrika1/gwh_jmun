@@ -11,10 +11,10 @@
     --accent-color: var(--pink);
     --text-color: var(--white);
     --text-primary-button: #FFFFFF; /*for the orange buttons*/
-    --text-secondary-button: var(var(--black)); /*for creme button*/
+    --text-secondary-button: var(--black); /*for creme button*/
     --bg-color: var(--black);
     --button-color: var(--primary-color);
-    --button-secondary: var(var(--secondary-color));
+    --button-secondary: var(--secondary-color);
     --border-color: var(--black);
     --shadow-color: var(--white);
     --shadow-color-hover: rgba(0, 0, 0, 0.2);
