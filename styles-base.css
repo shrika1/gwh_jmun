@@ -1,0 +1,27 @@
+:root{
+  --light-grey: #F7F7F7;          /* Light background */
+    --teal-primary: #009A94;         /* Teal green - main accent */
+    --yellow-primary: #E9BB3F;       /* Yellow - secondary accent */
+    --dark-grey: #262626;            /* Dark grey/black - text */
+    --pure-black: #000000;           /* Pure black for better contrast */
+    --pure-white: #FFFFFF;           /* Pure white */
+    
+    --primary-color: var(--teal-primary);
+    --secondary-color: var(--yellow-primary);
+    --accent-color: var(--yellow-primary);
+    --text-color: #000000;
+    --text-secondary: #000000;
+    --bg-color: #FFFFFF;
+    --bg-secondary: #F8F9FA;
+    --bg-alt-color: #F1F3F4;
+    --bg-fills: var(--teal-primary);
+    --border-color: #E0E0E0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --shadow-color-hover: rgba(0, 0, 0, 0.2);
+    --subtitle-color: #000000;
+    --highlight-color: var(--yellow-primary);
+    
+    /* Typography */
+    /*--font-primary:
+    --font-accent: */
+  }
