@@ -234,6 +234,32 @@ h1,h2{
     flex-wrap: wrap;
 }
 
+.link-card {
+    min-width: 260px;
+    padding: 1.5rem 2rem;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+
+    color: var(--text-color);
+    background-color: var(--bg-color);
+
+    border-radius: 12px;
+    border: 2px solid transparent;
+
+    box-shadow: 0 8px 20px var(--secondary-color);
+
+    transition: 
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.link-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-4px);
+}
+
 /*background guides*/
 .bg-guide {
     padding: 4rem 2rem;
@@ -260,7 +286,7 @@ h1,h2{
     overflow: hidden;
 
     text-decoration: none;
-    box-shadow: 0 10px 25px var(--secondary-color);
+    box-shadow: 0 10px 10px var(--secondary-color);
 
     transition: transform 0.3s ease;
 }
