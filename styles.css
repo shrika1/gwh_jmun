@@ -90,18 +90,18 @@ h1,h2{
 .hero {
     position: relative;
     height: 100vh;
-    background-image: url("hero-bg.jpg");
+    background-image: url("images/background.jpeg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 
-.hero-overlay {
+/*.hero-overlay {
     position: absolute;
     inset: 0;
     backdrop-filter: blur(6px);
     background-color: var(--bg-color);
-}
+}*/
 
 .hero-content {
     position: relative;
