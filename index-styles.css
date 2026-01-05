@@ -1,0 +1,17 @@
+.salutation {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+/* Body paragraphs */
+p {
+    margin-bottom: 1.5em;
+    text-align: justify; /* Provides a formal, structured look */
+}
+
+/* Closing and signature section */
+.closing {
+    margin-top: 50px;
+    padding-top: 20px;
+}
