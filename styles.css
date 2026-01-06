@@ -376,7 +376,7 @@ h1,h2{
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
 }
 
 .committee-overlay {
@@ -412,6 +412,7 @@ h1,h2{
 
 .bg-btn {
     margin-top: auto;
+    margin-bottom: 3rem;
 
     padding: 1rem 2.5rem;
     text-decoration: none;
@@ -434,6 +435,7 @@ h1,h2{
 /*----------the eb part----------------------------*/
 .eb {
     padding: 4rem 2rem;
+    margin-top: 5rem;
     background-color: var(--bg-color);
 }
 
