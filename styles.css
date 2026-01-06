@@ -376,6 +376,7 @@ h1,h2{
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    padding-bottom: 3rem;
 }
 
 .committee-overlay {
