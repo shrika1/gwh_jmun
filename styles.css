@@ -331,5 +331,153 @@ h1,h2{
     background-color: var(--primary-color); 
 }
 
+/*---------------committees--------------------------------*/
+.nav-list {
+    padding: 4rem 2rem;
+    background-color: var(--bg-color);
+}
+
+.nav-list-container {
+    max-width: 1100px;
+    width: 85vw;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.nav-item {
+    display: block;
+    width: 100%;
+    padding: 1.5rem 2rem;
+
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-color);
+
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+
+    transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.nav-item:hover {
+    border-color: var(--primary-color);
+    transform: translateX(4px);
+}
+
+
+/*-----styking common for all committees------------------*/
+.committee-hero {
+    position: relative;
+    height: 80vh;
+    background-image: url("images/committee-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.committee-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: var(--bg-color);
+}
+
+.committee-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.committee-title {
+    margin-top: 1rem;
+}
+
+.agenda {
+    margin-top: 3rem;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 600;
+    color: var(--text-color);
+    max-width: 900px;
+}
+
+.bg-btn {
+    margin-top: auto;
+
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+
+    border-radius: 12px;
+    box-shadow: 0 10px 25px var(--shadow-color-hover);
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.bg-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px var(--shadow-color-hover);
+}
+
+
+/*----------the eb part----------------------------*/
+.eb {
+    padding: 4rem 2rem;
+    background-color: var(--bg-color);
+}
+
+.eb-list {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.eb-item {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.eb-profile {
+    min-width: 180px;
+    text-align: center;
+}
+
+.eb-profile img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.eb-name {
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.3rem;
+}
+
+.eb-role {
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+}
+
+.eb-text p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
 
 
