@@ -8,7 +8,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem 2rem;
-    height: 100px;
+    height: 90px;
 
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 0.9rem;
     transition: color 0.2s ease;
 }
 
@@ -339,6 +339,7 @@ h1,h2{
 .nav-list {
     padding: 4rem 2rem;
     background-color: var(--bg-color);
+    margin-right: 3rem;
 }
 
 .nav-list-container {
@@ -350,7 +351,7 @@ h1,h2{
     flex-direction: column;
     gap: 1.2rem;
     padding-right: 6rem;
-    padding-left: 6rem;
+    padding-left: 1rem;
 }
 
 .nav-item {
