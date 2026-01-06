@@ -1,0 +1,190 @@
+const data = {
+  list: [
+    {
+      name: "United Nations Security Council (UNSC)",
+      agenda: "Addressing the rise of violent extremist activity and instability in the Sahel region",
+      chair: {
+        name: "Garvit Shah",
+        desc: "",
+        imgpath: "assets/eb_pics/UNSC/Garvit S.jpg"
+      },
+      vicechair: {
+        name: "Neil A",
+        desc: "“War does not determine who is right — only who is left.” — Bertrand Russell\n\nWith placements across major conferences such as GWHMUN, SNISMUN, CANMUN, and GWHJMUN, he approaches the United Nations Security Council with a purpose, structure, and consequence. The UNSC is a rigorously competitive committee where legal clarity and structured argumentation are essential. Have your legal groundwork sorted, stay sharp, and lock in—most importantly, enjoy the process.",
+        imgpath: "assets/eb_pics/UNSC/Neil A.jpg"
+      },
+      moderator: {
+        name: "Tarun Chetan",
+        desc: "Life is this. I like this.",
+        imgpath: "assets/eb_pics/UNSC/Tarun C.jpg"
+      }
+    },
+
+    {
+      name: "United Nations Human Rights Council (UNHRC)",
+      agenda: "Addressing Human Rights Violations Amid the Global Expansion of Autonomous Surveillance Systems",
+      chair: {
+        name: "Suhani Singh",
+        desc: "“Wit is educated insolence” – Aristotle",
+        imgpath: "assets/eb_pics/UNHRC/Suhani S.jpg"
+      },
+      vicechair: {
+        name: "Yash Dak",
+        desc: "Veni, Vidi, Veci",
+        imgpath: "assets/eb_pics/UNHRC/Yash Dak.jpg"
+      },
+      vicechair2: {
+        name: "Daksh A",
+        desc: "\"All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents.\" - A.P.J. Abdul Kalam\n\nDaksh is a passionate and active MUNner who has been munning for over 3 years and has placed in prestigious conferences such as CANMUN, INYP, and GWHMUN. Coincidentally, Daksh began his MUN career at GWHJMUN in the same committee he is chairing this year, UNHRC. Apart from MUNs Daksh loves to code, has developed his own apps and has a very deep interest in circuitry and physics.",
+        imgpath: "assets/eb_pics/UNHRC/Daksh A.jpg"
+      }
+    },
+
+    {
+      name: "United Nations General Assembly (UNGA)",
+      agenda: "Strengthening UN coordinated measures to manage the escalation of proxy conflicts",
+      chair: {
+        name: "Aarya Poddar",
+        desc: "“What that would mean is not for me to explain to you, because you yourself understand perfectly of what terrible forces our countries dispose.” - Nikita S Khrushchev",
+        imgpath: "assets/eb_pics/UNGA/Aarya P.jpg"
+      },
+      vicechair: {
+        name: "Nimit A",
+        desc: "“I never lose. I either win or learn.” — Nelson Mandela\n\nKnown for his controversial remarks and dramatic fanatics in committee, his thundering speeches make sure he doesn't go home forgotten. As an inquisitive, unpredictable and confident delegate, Nimit believes that a portfolio doesn't determine awards, thinner ties are better and a firm handshake goes a long way. Having started his career with a nightmare of a first MUN, Nimit makes sure that all delegates cherish the time they spend in his committee.",
+        imgpath: "assets/eb_pics/UNGA/Nimit A.jpg"
+      },
+      moderator: {
+        name: "Adhrit G",
+        desc: "“br is nt shkspr”\n\nAdhrit is an avid and passionate MUNner with two years of experience. He has attended nine MUNs, having debated at prestigious conferences like GWHMUN, CISMUN, and GEARMUN. His passion extends beyond MUNing, with him playing the drums and having a keen interest in hiking.",
+        imgpath: "assets/eb_pics/UNGA/Adhrit G.jpg"
+      }
+    },
+
+    {
+      name: "Disarmament and International Security Committee (DISEC)",
+      agenda: "Addressing Global Terrorism with Special Emphasis on the Middle East and North Africa (MENA) Region",
+      chair: {
+        name: "Anita Bhat",
+        desc: "“If you want a picture of the future, imagine a boot stamping on a human face, forever.\" - George Orwell, 1984.\n\nAround six years of experience in MUN/Debate. She thrives in political and legal discussions. You may catch her listening to dad-rock when she's not knee-deep in academics.",
+        imgpath: "assets/eb_pics/DISEC/Anita B.jpg"
+      },
+      vicechair: {
+        name: "Vanya G",
+        desc: "\"When power corrupts, poetry cleanses.\" – John F. Kennedy\n\nVanya has achieved several placements across MUNs including this very JMUN previously. She facilitates chaotic but highly productive debate and famously never needs a microphone. Outside MUNs you can find her drawing Spider-Man and constantly travelling or plotting to live in London!",
+        imgpath: "assets/eb_pics/DISEC/Vanya G.jpg"
+      },
+      vicechair2: {
+        name: "Siddhant S",
+        desc: "",
+        imgpath: "assets/eb_pics/DISEC/Siddhant S.jpg"
+      }
+    },
+
+    {
+      name: "All India Political Parties Meet (AIPPM)",
+      agenda: "Evaluating the scope of reasonable restrictions under Article 19 in relation to the enforcement of UAPA",
+      chair: {
+        name: "Miraya Singh",
+        desc: "“Peace we want because there is another war to fight against poverty, disease and ignorance.” – Indira Gandhi\n\nAs a delegate, her fiery speeches were only rivaled by her vast handcrafted blocs and quick-witted responses. As a seasoned MUNer, Miraya recognizes the inevitable highs and lows of committee proceedings and will make sure that the delegates of AIPPM can experience the thrill of advocacy, research and public speaking that drew her into MUNs.",
+        imgpath: "assets/eb_pics/AIPPM/Miraya S.jpg"
+      },
+      vicechair: {
+        name: "Sarvesh J",
+        desc: "“The strength and richness of democracy lie in the harmony of diverse voices” - Aloo Denish Obiero\n\nFrom raising the placard on instinct, to raising a placard on insight.\nPresenting to you the Vice Chair of the AIPPM, Sarvesh Anshul Jairath.",
+        imgpath: "assets/eb_pics/AIPPM/Sarvesh J.jpg"
+      },
+      moderator: {
+        name: "Ian J",
+        desc: "“Better a diamond with a flaw than a pebble without” – Confucius\n\nSometimes it’s the imperfections in a person that give them their uniqueness and character. I appreciate value, even with all the imperfections, over superficial perfection. I believe that those who strive for virtue may stumble, or fall short at times, yet their effort holds much greater value than those who live a life without risk and failure.",
+        imgpath: "assets/eb_pics/AIPPM/Ian J.jpg"
+      }
+    },
+
+    {
+      name: "International Court of Justice (ICJ)",
+      agenda: "Sovereignty over Pulau Ligitan and Pulau Sipadan (Indonesia vs Malaysia)",
+      chair: {
+        name: "Sparsh Bhowmick",
+        desc: "\"Am I a hero? I really can’t say, but yes\"\n– Michael Scott\n\nSparsh Bhowmick began his MUN journey with a rocky start at GWHMUN 2022. However, with a strong belief in substance over style, he was able to turn things around and has proved his ability by chairing and securing placements at various conferences. Having chaired the ICJ on several occasions, Sparsh returns to chair the ICJ, looking forward to a competitive committee.",
+        imgpath: "assets/eb_pics/ICJ/Sparsh B.jpg"
+      },
+      vicechair: {
+        name: "Adharsh M",
+        desc: "\"The greatest glory in living lies not in never falling, but in rising every time we fall\" – Nelson Mandela",
+        imgpath: "assets/eb_pics/ICJ/Adharsh.jpg"
+      },
+      vicechair2: {
+        name: "Aliza Raza",
+        desc: "\"There can be no peace without justice, no justice without law, and no meaningful law without a court to decide what is just and lawful under any given circumstance\" – Benjamin Ferencz",
+        imgpath: "assets/eb_pics/ICJ/Aliza.jpg"
+      }
+    },
+
+    {
+      name: "International Press Corps (IPC)",
+      agenda: "No agenda",
+      chair: {
+        name: "Avika M",
+        desc: "“Always be yourself, unless you can be Batman. Then always be Batman.”\n\nWith her vibrant personality and confident attitude Avika has made a name for herself in the MUN community. Through her dynamic disposition she is sure to make an impression on every committee she walks into. Beware that her standards are as high as the black heels she wears. Committee will certainly never be dull with her presence. Presenting the Head Chair of the International Press Corps – Avika Malik.",
+        imgpath: "assets/eb_pics/IPC/Avika M.jpg"
+      },
+      vicechair: {
+        name: "Nishal R",
+        desc: "fortunam meam ipse creo.",
+        imgpath: "assets/eb_pics/IPC/Nishal R.jpg"
+      }
+    },
+
+    {
+      name: "Continuous Crisis Committee (CCC)",
+      agenda: "The Cuban Missile Crisis – Freeze date: 27th October 1962",
+      chair: {
+        name: "Daksh Aggarwal",
+        desc: "Transitioning from experiencing a terrible first MUN – GWHMUN 2022 – to achieving the title of Best Delegate at the same conference a year later, and proceeding to chair multiple committees, he has come a long way.\nIn any committee, he is a force to be reckoned with. From holding a session to kick Russia out of committee, to reviving the Soviet Union, his directives are nothing short of amazing (and a little psychotic), and never fail to wreak havoc in committee. His speeches are no different – he can effortlessly deliver enthralling speeches which shatter the confidence of everyone else in the room.",
+        imgpath: "assets/eb_pics/CCC/Daksh Aggarwal.jpg"
+      },
+      vicechair: {
+        name: "Siddhant G",
+        desc: "",
+        imgpath: "assets/eb_pics/CCC/Siddhant G.jpg"
+      },
+      moderator: {
+        name: "Niketh R",
+        desc: "\"It's just like in chess. Sometimes to win you have to sacrifice your king to win\" – Jake Peralta, Brooklyn 99",
+        imgpath: "assets/eb_pics/CCC/Niketh R.jpg"
+      }
+    }
+  ]
+};
+
+const container = document.getElementById("committees");
+
+data.list.forEach(c => {
+  const div = document.createElement("div");
+  div.className = "committee";
+
+  div.innerHTML = `
+    <h2>${c.name}</h2>
+    <div class="agenda">${c.agenda}</div>
+
+    <div class="people">
+      ${renderPerson("Chair", c.chair)}
+      ${c.vicechair ? renderPerson("Vice Chair", c.vicechair) : ""}
+      ${c.vicechair2 ? renderPerson("Vice Chair", c.vicechair2) : ""}
+      ${c.moderator ? renderPerson("Moderator", c.moderator) : ""}
+    </div>
+  `;
+
+  container.appendChild(div);
+});
+
+function renderPerson(role, p) {
+  return `
+    <div class="person">
+      <img src="${p.imgpath}" alt="${p.name}">
+      <div class="role">${role}</div>
+      <div><strong>${p.name}</strong></div>
+      <div class="desc">${p.desc || ""}</div>
+    </div>
+  `;
+}
